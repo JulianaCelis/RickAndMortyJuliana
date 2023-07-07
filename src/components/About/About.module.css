@@ -1,0 +1,54 @@
+.aboutContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  transition: opacity 0.8s ease;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.textContent {
+  flex: 1;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #9000ff;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* Estilos adicionales para hacer el texto más dinámico */
+p:nth-of-type(odd) {
+  color: #988fa5;
+  font-style: italic;
+}
+
+p:nth-of-type(even) {
+  color: #9000ff;
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #9000ff;
+}
+
+.heart {
+  color: #ff1493;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
+  margin-left: auto;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #9000ff;
+  font-weight: bold;
+}
+
+.whiteContainer {
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 5px 10px;
+  border-radius: 5px; 
+}
+
+.about-link {
+  margin-right: auto; 
+}
